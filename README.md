@@ -15,10 +15,12 @@ workflow "main" {
 }
 
 action "swift_build" {
-  uses = "Didstopia/SwiftAction@master"
+  uses = "Didstopia/SwiftAction@v1.0.0"
   args = "build"
 }
 ```
+
+To use the latest development version of this action, change the version number to `master` (eg. `Didstopia/SwiftAction@master`).
 
 ## License
 
