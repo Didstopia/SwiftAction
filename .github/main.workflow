@@ -1,13 +1,18 @@
 workflow "Push Workflow" {
   on = "push"
-  resolves = ["Swift Action"]
+  resolves = ["Run Default Action", "Run Custom Action"]
 }
 
 workflow "Pull Request Workflow" {
   on = "pull_request"
-  resolves = ["Swift Action"]
+  resolves = ["Run Default Action", "Run Custom Action"]
 }
 
-action "Swift Action" {
+action "Run Default Action" {
   uses = "./"
+}
+
+action "Run Custom Action" {
+  uses = "./"
+  args = "--version"
 }
