@@ -2,8 +2,8 @@
 FROM swift:5.0
 
 # Add labels the Docker image
-LABEL "repository"="http://github.com/Didstopia/action-swift"
-LABEL "homepage"="http://github.com/actions"
+LABEL "repository"="https://github.com/Didstopia/SwiftAction"
+LABEL "homepage"="https://swift.org"
 LABEL "maintainer"="Didstopia <support@didstopia.com>"
 
 # Add labels for GitHub Actions
