@@ -1,4 +1,4 @@
-# Swift GitHub Action
+# Swift Action
 
 Provides [Swift](https://swift.org) support for [GitHub Actions](https://github.com/features/actions).
 
