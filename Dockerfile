@@ -14,8 +14,7 @@ LABEL "com.github.actions.color"="orange"
 
 # Create the entrypoint script
 RUN echo "#!/bin/sh\n\
-set -eu\n\
-set -x\n\
+set -eux\n\
 sh -c \"swift \$*\""\
 > /entrypoint.sh && \
 chmod +x /entrypoint.sh
