@@ -7,7 +7,7 @@ LABEL "homepage"="https://swift.org"
 LABEL "maintainer"="Didstopia <support@didstopia.com>"
 
 # Add labels for GitHub Actions
-LABEL "com.github.actions.name"="SwiftAction"
+LABEL "com.github.actions.name"="swift-action"
 LABEL "com.github.actions.description"="Provides Swift support for GitHub Actions."
 LABEL "com.github.actions.icon"="code"
 LABEL "com.github.actions.color"="orange"
