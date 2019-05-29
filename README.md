@@ -1,6 +1,6 @@
 # GitHub Action for Swift
 
-[Swift](https://swift.org) support for [GitHub Actions](https://github.com/features/actions).
+Provides [Swift](https://swift.org) support for [GitHub Actions](https://github.com/features/actions).
 
 ## Usage
 
