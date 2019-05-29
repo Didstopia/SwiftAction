@@ -9,12 +9,12 @@ To begin using this action, you only need to define `args` in the GitHub Action,
 If you need more control over the process, you can define `runs` instead, which will override the `swift` binary (eg. `<runs> <args>`).
 
 ```hcl
-workflow "Push Workflow" {
+workflow "main" {
   on = "push"
-  resolves = ["Build"]
+  resolves = ["swift_build"]
 }
 
-action "Build" {
+action "swift_build" {
   uses = "Didstopia/SwiftAction@master"
   args = "build"
 }
