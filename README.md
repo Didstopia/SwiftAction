@@ -2,12 +2,6 @@
 
 Provides [Swift](https://swift.org) support for [GitHub Actions](https://github.com/features/actions).
 
-## Inputs
-
-#### `swift-action`
-
-**Required** Swift action to run. Default `"build"`.
-
 ## Usage
 
 ```
@@ -17,6 +11,12 @@ with:
 ```
 
 To use the latest development version of this action, change the version number to `master` (eg. `Didstopia/SwiftAction@master`).
+
+## Inputs
+
+#### `swift-action`
+
+**Required** Swift action to run. Default `"build"`.
 
 ## License
 
