@@ -1,0 +1,15 @@
+name: Test
+
+on: [push]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: Didstopia/SwiftAction@v1.0.0
+      with:
+        run-task: '--version'
