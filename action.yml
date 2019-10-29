@@ -1,5 +1,9 @@
 name: 'Swift Action'
 description: 'Provides Swift support for GitHub Actions.'
+author: 'Didstopia'
+branding:
+  icon: 'code'  
+  color: 'orange'
 inputs:
   swift-action:
     description: 'Swift action to run'
