@@ -1,7 +1,7 @@
 name: 'Swift Action'
 description: 'Provides Swift support for GitHub Actions.'
 inputs:
-  run-task:
+  swift-action:
     description: 'Swift action to run'
     required: true
     default: 'build'
@@ -9,4 +9,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.run-task }}
+    - ${{ inputs.swift-action }}
