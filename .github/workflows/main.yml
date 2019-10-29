@@ -8,6 +8,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+      name: Checkout Repository
     - uses: ./
+      name: Run Swift Action
       with:
-        run-task: '--version'
+        swift-action: '--version'
