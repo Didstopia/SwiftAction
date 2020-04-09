@@ -1,5 +1,5 @@
 # Set the base image to the target Swift version
-FROM swift:5.1
+FROM swift:5.2
 
 # Add labels the Docker image
 LABEL "repository"="https://github.com/Didstopia/SwiftAction"
